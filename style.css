@@ -1,0 +1,775 @@
+/* style.css */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: url(https://img.freepik.com/free-vector/vintage-ornamental-flowers-background_52683-28040.jpg?w=2000);
+}
+
+.title-content {
+  text-align: center;
+}
+
+.line-br {
+  width: 100%;
+  height: 50px;
+  border-bottom: 2px dashed black;
+}
+
+.clear {
+  clear: left;
+}
+
+/* navbar */
+
+.navbar {
+  background: #3b3b3b;
+  height: 50px;
+  width: 100%;
+  position: fixed;
+  z-index: 9999;
+}
+
+.navbar-brand {
+  z-index: -1;
+  top: 10px;
+  left: 10px;
+  position: relative;
+  font-size: 25px;
+}
+
+.navbar-brand a {
+  color: lightgray;
+  text-decoration: none;
+  z-index: 1;
+  position: relative;
+}
+
+.menu {
+  margin-top: -15px;
+  margin-left: 19.5pc;
+}
+
+.menu li {
+  display: inline;
+}
+
+.menu li a {
+  color: lightgray;
+  margin-left: 20px;
+}
+
+.login {
+  text-align: right;
+  margin-top: -20px;
+  margin-right: 190px;
+}
+
+.login a {
+  border: 1px solid lightgray;
+  display: inline-block;
+  height: 25px;
+  width: 100px;
+  text-align: center;
+  line-height: 25px;
+  color: lightgray;
+  border-radius: 5px;
+  transition: 1s;
+}
+
+.login a:hover {
+  background: lightgray;
+  color: black;
+}
+
+.go-to {
+  text-align: right;
+  margin-top: -27px;
+  margin-right: 20px;
+}
+
+.go-to a {
+  border: 1px solid lightgray;
+  display: inline-block;
+  height: 25px;
+  width: 150px;
+  text-align: center;
+  line-height: 25px;
+  color: lightgray;
+  border-radius: 5px;
+  transition: 1s;
+}
+
+.go-to a:hover {
+  background: lightgray;
+  color: black;
+}
+
+/* content */
+
+#content {
+  width: 50%;
+  margin: auto;
+  background: whitesmoke;
+  padding-top: 100px;
+}
+
+/* say hello */
+
+.say-hello {
+  text-align: center;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.title {
+  font-size: 40px;
+}
+
+.description {
+  margin-top: 20px;
+}
+
+/* blog */
+
+.blog {
+  margin-top: 50px;
+  margin-left: 110px;
+  width: 50%;
+}
+
+.content-blog {
+  width: 70%;
+  overflow: auto;
+  height: 100px;
+}
+
+/* login */
+
+.sign-in {
+  position: relative;
+  width: 45%;
+  top: -161px;
+  margin-left: auto;
+}
+
+.form label {
+  display: block;
+}
+
+.btn-submit {
+  position: relative;
+  top: 20px;
+  cursor: pointer;
+  width: 80px;
+  height: 30px;
+}
+
+/* box sizing */
+
+.box-size {
+  margin-top: 50px;
+}
+
+.content-box-size {
+  margin-top: 20px;
+}
+
+.one {
+  width: 600px;
+  background: salmon;
+  padding: 10px;
+  margin: 10px auto;
+  border: 2px dotted black;
+  box-sizing: border-box;
+}
+
+.two {
+  width: 600px;
+  background: lightblue;
+  padding: 10px;
+  margin: 10px auto;
+  border: 1px double black;
+  box-sizing: border-box;
+  margin-bottom: 60px;
+}
+
+/* float */
+
+.float {
+  margin-top: 50px;
+}
+
+.float-content {
+  margin-top: 20px;
+}
+
+.float-content .a,
+.b,
+.c {
+  padding: 10px;
+  width: 90%;
+  margin: 10px auto;
+}
+
+.a {
+  border: 1px double black;
+}
+
+.satu {
+  background: salmon;
+  height: 100px;
+  width: 100px;
+}
+
+.dua {
+  background: lightgreen;
+  height: 100px;
+  width: 100px;
+}
+
+.tiga {
+  background: lightblue;
+  height: 100px;
+  width: 100px;
+}
+
+.b {
+  border: 1px double black;
+}
+
+.mutant {
+  margin: 10px;
+  float: left;
+}
+
+.c {
+  border: 1px double black;
+}
+
+.kotak {
+  background: salmon;
+  height: 100px;
+  width: 100px;
+  margin: 10px;
+  float: left;
+  font-size: 30px;
+  line-height: 100px;
+  text-align: center;
+}
+
+/* position */
+
+.position {
+  margin-top: 50px;
+}
+
+.position .d,
+.e,
+.f {
+  border: 1px double black;
+  width: 90%;
+  margin: 10px auto;
+  padding: 10px;
+}
+
+.position .d,
+.e,
+.f h1 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+/* div i */
+
+.static {
+  width: 120px;
+  margin: auto;
+}
+
+.i,
+.ii,
+.iii {
+  height: 120px;
+  width: 120px;
+  font-size: 30px;
+  text-align: center;
+  line-height: 120px;
+}
+
+.i {
+  background: salmon;
+}
+
+.ii {
+  background: lightgreen;
+}
+
+.iii {
+  background: lightblue;
+}
+
+/* div z */
+
+.relative {
+  width: 120px;
+  margin: auto;
+}
+
+.z,
+.zz,
+.zzz {
+  height: 120px;
+  width: 120px;
+  font-size: 30px;
+  text-align: center;
+  line-height: 120px;
+}
+
+.z {
+  background: salmon;
+}
+
+.zz {
+  background: lightgreen;
+  position: relative;
+  top: 50px;
+}
+
+.zzz {
+  background: lightblue;
+}
+
+/* div s */
+
+.absolute {
+  width: 120px;
+  margin: auto;
+  z-index: 1;
+  position: relative;
+}
+
+.s,
+.ss,
+.sss {
+  height: 120px;
+  width: 120px;
+  font-size: 30px;
+  text-align: center;
+  line-height: 120px;
+}
+
+.s {
+  background: salmon;
+}
+
+.ss {
+  background: lightgreen;
+  position: absolute;
+  left: 20px;
+  top: 50px;
+}
+
+.sss {
+  background: lightblue;
+}
+
+/* CSS 3 */
+
+/* border radius */
+
+.border-radius {
+  margin-top: 50px;
+}
+
+.content-border-radius {
+  margin: 10px auto;
+  padding: 10px;
+  margin-top: 20px;
+  width: 90%;
+  border: 1px double black;
+}
+
+.content-border-radius div {
+  display: inline-block;
+}
+
+.d1 {
+  background: salmon;
+  height: 148.7px;
+  width: 148.7px;
+  font-size: 18px;
+  text-align: center;
+  line-height: 148.7px;
+}
+
+.d2 {
+  background: lightgreen;
+  height: 148.7px;
+  width: 148.7px;
+  font-size: 18px;
+  text-align: center;
+  border-top-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  line-height: 148.7px;
+}
+
+.d3 {
+  background: lightblue;
+  height: 148.7px;
+  width: 148.7px;
+  font-size: 18px;
+  text-align: center;
+  border-radius: 50px;
+  line-height: 148.7px;
+}
+
+.d4 {
+  background: lightpink;
+  height: 148.7px;
+  width: 148.7px;
+  font-size: 18px;
+  text-align: center;
+  border-radius: 50%;
+  line-height: 148.7px;
+}
+
+/* opacity */
+
+.opacity {
+  margin-top: 50px;
+}
+
+.content-opacity {
+  background: url(https://thumbs.dreamstime.com/b/blue-white-triangle-strip-wallpaper-same-colores-progres-up-to-backdrop-110660388.jpg);
+  margin: 10px auto;
+  padding: 10px;
+  margin-top: 20px;
+  width: 90%;
+  border: 1px double black;
+}
+
+.content-opacity div {
+  display: inline-block;
+}
+
+.o1 {
+  background: lightsalmon;
+  height: 148.7px;
+  width: 148.7px;
+  opacity: 0.8;
+}
+
+.o1-p {
+  background: lightcoral;
+  height: 148.7px;
+  width: 148.7px;
+  text-align: center;
+  opacity: 0.8;
+}
+
+.o2 {
+  background: lightblue;
+  position: absolute;
+  margin-top: 12px;
+  margin-left: 2px;
+  height: 125px;
+  width: 125px;
+}
+
+/* opacity */
+
+.box-shadow {
+  margin-top: 50px;
+}
+
+.content-bs {
+  margin: auto;
+  margin-top: 20px;
+  border: 1px double black;
+  width: 90%;
+  padding: 10px;
+}
+
+.content-bs div {
+  margin: auto;
+  margin-bottom: 40px;
+}
+
+.shadow1 {
+  background: salmon;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7);
+  height: 150px;
+  width: 150px;
+  text-align: center;
+  line-height: 150px;
+}
+
+.ts1,
+.ts2,
+.ts3,
+.ts4 {
+  text-shadow: 0 1px 5px rgba(15, 15, 15, 0.5);
+}
+
+.ts5 {
+  text-shadow: 0 1px 5px rgba(255, 255, 255, 0.7);
+}
+
+.shadow2 {
+  background: lightseagreen;
+  box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.7);
+  height: 150px;
+  width: 150px;
+  text-align: center;
+  line-height: 150px;
+}
+
+.shadow3 {
+  background: lightgreen;
+  box-shadow: 0 20px 10px -10px rgba(0, 0, 0, 0.7);
+  height: 150px;
+  width: 150px;
+  text-align: center;
+  line-height: 150px;
+}
+
+.shadow4 {
+  background: lightslategrey;
+  box-shadow: 0 0 0 10px red, 0 0 0 15px yellow;
+  height: 150px;
+  width: 150px;
+  text-align: center;
+  line-height: 150px;
+}
+
+.shadow5 {
+  background: green;
+  box-shadow: inset 0 0 10px 10px rgba(0, 0, 0, 0.7);
+  height: 150px;
+  width: 150px;
+  text-align: center;
+  line-height: 150px;
+}
+
+/* linear gradient */
+
+.gradient {
+  margin-top: 50px;
+}
+
+.content-lg {
+  margin: 10px auto;
+  margin-top: 20px;
+  border: 1px double black;
+  width: 90%;
+  padding: 10px;
+}
+
+.content-lg div {
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+.lg1 {
+  background-image: linear-gradient(red, green);
+  height: 200px;
+  width: 80%;
+}
+
+.lg2 {
+  background-image: linear-gradient(90deg, purple, blue);
+  height: 200px;
+  width: 80%;
+}
+
+.lg3 {
+  background-image: linear-gradient(to top left, yellow, darkorange);
+  height: 200px;
+  width: 80%;
+}
+
+.lg4 {
+  background-image: linear-gradient(to left, darkgray 65%, #5b5b5b 80%);
+  height: 200px;
+  width: 80%;
+}
+
+.lg5 {
+  background-image: linear-gradient(red, orange, yellow, green, darkgreen, blue, darkblue, purple, pink, gray, darkgray);
+  height: 200px;
+  width: 80%;
+}
+
+.lg6 {
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+  height: 200px;
+  width: 80%;
+}
+
+/* font face */
+
+.font-face {
+  margin-top: 50px;
+}
+
+.content-ff {
+  border: 1px double black;
+  width: 90%;
+  margin: auto;
+  margin-top: 20px;
+  padding: 10px;
+  text-align: center;
+}
+
+.content-ff h1 {
+  font-family: "Roboto", sans-serif;
+}
+
+.content-ff h2 {
+  font-family: "Send Flowers", sans-serif;
+}
+
+.content-ff h3 {
+  font-family: "BIZ UDPMincho", sans-serif;
+}
+
+.content-ff h4 {
+  font-family: "Open Sans", sans-serif;
+}
+
+.content-ff h5 {
+  font-family: "Roboto Mono", sans-serif;
+}
+
+.content-ff h6 {
+  font-family: "Rubik Glitch", sans-serif;
+}
+
+/* filter */
+
+.filter {
+  margin-top: 50px;
+}
+
+.content-filter {
+  margin: 10px auto;
+  margin-top: 20px;
+  border: 1px double black;
+  padding: 10px;
+  width: 90%;
+  text-align: center;
+}
+
+/* transform */
+
+.transform {
+  margin-top: 50px;
+}
+
+.content-trans {
+  margin: 10px auto;
+  margin-top: 20px;
+  border: 1px double black;
+  width: 90%;
+  padding: 10px;
+}
+
+.content-trans div {
+  height: 150px;
+  width: 150px;
+  margin: 10px auto;
+}
+
+.r1 {
+  background: salmon;
+  transition: 1s;
+}
+
+.r1:hover {
+  transform: scale(-80%);
+  box-shadow: inset 0 0 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.r2 {
+  background: lightgreen;
+  transition: 1s;
+}
+
+.r2:hover {
+  transform: rotateY(180deg);
+}
+
+.r3 {
+  background: lightblue;
+  transition: 1s;
+}
+
+.r3:hover {
+  transform: skewY(-15deg);
+  box-shadow: 0 9px 5px -5px rgba(0, 0, 0, 0.5);
+}
+
+.r4 {
+  background: pink;
+  transition: 1s;
+}
+
+.r4:hover {
+  transform: translateY(-30px);
+  box-shadow: 0 20px 5px -10px rgba(0, 0, 0, 0.5);
+}
+
+/* animation */
+
+.animation {
+  margin-top: 50px;
+}
+
+.content-animation {
+  margin: 10px auto;
+  margin-top: 20px;
+  border: 1px double black;
+  width: 90%;
+  padding: 10px;
+}
+
+.box-anim {
+  background: lightcoral;
+  height: 150px;
+  width: 150px;
+  animation: animasiKotak 3s ease infinite alternate forwards running;
+}
+
+@keyframes animasiKotak {
+  0% {
+    width: 150px;
+    height: 150px;
+  }
+  50% {
+    width: 150px;
+    height: 150px;
+    margin-left: 75%;
+  }
+  100% {
+    width: 150px;
+    height: 150px;
+    margin-top: 90px;
+  }
+}
+
+/* footer */
+
+.copyright {
+  background: #3b3b3b;
+  color: #c5c5c5;
+  margin-top: 50px;
+  text-align: center;
+  line-height: 50px;
+  height: 50px;
+  width: 100%;
+}
